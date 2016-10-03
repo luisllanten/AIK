@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Contacto</title>
-	<h1>Contacto</h1>
+	<h1 align="center">Contacto</h1>
 </head>
 <body>
 	<nav>
@@ -11,6 +11,9 @@
 		 <a href="tecnologia.html">Tecnologia</a> | 
  		 <a href="servicios.html">Servicios</a> | 
  		 <a href="contacto.html">Contacto</a> 
+ 		 <a href="multimedia.html">Multimedia</a> 
+ 		 <a href="blog.html">Blog</a> 
+ 		 <a href="login.html">Login</a> 
  	</nav>
 
  	<section>
@@ -20,6 +23,60 @@
  		<p>Línea de atención nacional 01-8000-1234-567</p>
  		<p>Email: <a href="#"> aikautos@aik.com </a> </p>
  	</section>
+
+	<form>
+		<table align="center">
+			<tr>
+    			<td><h3>Ingrese sus datos</h3></td>
+			</tr>
+			<tr>
+    			<td><label>Nombre:</label></td>
+        		<td><input tittle="Se necesita un Nombre" maxlength="20" type="text" name="nombre" id="Nombre" required/></td>
+			</tr>
+			<tr>
+    			<td><label>Apellido:</label></td>
+        		<td><input tittle="Se necesita un Apellido" maxlength="20" type="text" name="Apellido" id="Apellido" required/></td>
+			</tr>
+			<tr>
+    			<td><label>Sexo:</label></td>
+    			<td> <select name="" required>
+    			<option value="hombre">Hombre</option>
+    			<option value="mujer">Mujer</option>
+    			</select></td>			
+			</tr>
+			<tr>
+    			<td><label>Intereses:</label></td>
+    			<td><input name="cbmusica" type="checkbox" />Musica
+    			<br />
+    			<input name="cbvideos" type="checkbox" />Videos
+    			<br />
+    			<input name="cbautos" type="checkbox" />Autos
+    			<br />
+    			<input name="cbrevistas" type="checkbox" />Revistas</td>
+			</tr>
+			<tr>
+			   <td><label>Fecha de nacimiento:</label></td>
+			   <td><input type="date" name="bday"></td>
+			</tr>
+			<tr>
+    			<td><label>Telefono:</label></td>
+    			<td><input type="number" maxlength="3" placeholder="solo numeros"></td>
+			</tr>
+			<tr>
+    			<td><label>Correo</label></td>
+    			<td><input type="email" name="email" placeholder="example@hotmail.com" required=""></td>
+			</tr>
+			<tr>
+			<td><label>Comentario</label></td>
+			<td><textarea name="message" cols="40" rows="6" maxlength="255"></textarea></td>
+			</tr>
+			
+			<tr>
+			<td><input type="submit" value="Enviar"></td>
+			</tr>
+	
+		</table>
+	</form>
 
  	<aside>
  		<p>Encuentra lo que buscas en: <a href=""> www.mercadolibre.com.co</a></p>
